@@ -1,0 +1,45 @@
+.grid-main__container{
+display: grid;
+height: 864px;
+grid-template-columns: 45% 55%;
+grid-template-rows: 50%;
+grid-template-areas: 
+"item1 item2"
+"item1 item3"
+
+;
+}
+
+
+.grid-main__item1{
+    grid-area:item1;
+    background-color:blue;
+    color: white;
+    border: 1px solid black;
+    border-radius:5px;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    padding: 8px 15px;
+   
+}
+
+.grid-main__item2{
+    grid-area:item2;
+    background-color: #74caca;
+    color: white;
+    border: 1px solid black;
+    border-radius:5px;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    padding: 8px 15px; 
+}
+.grid-main__item3{
+    grid-area: item3;
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius:5px;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    padding: 8px 15px; 
+}

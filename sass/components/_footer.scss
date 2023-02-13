@@ -1,0 +1,25 @@
+.grid-footer__container{
+    display: grid;
+    grid-template-columns:33% 67%;
+    height: 704px;
+}
+.grid-footer__item1{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius:5px;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    padding: 8px 15px;
+   
+}
+
+.grid-footer__item2{
+    background-color: #74caca;
+    color: white;
+    border: 1px solid black;
+    border-radius:5px;
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    padding: 8px 15px; 
+}
